@@ -1,4 +1,4 @@
-# realeyes-ai
+# Realeyes
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,127 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-realeyes-ai is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://realeyes.ai/
+Realeyes provides human verification technology that distinguishes real humans from bots, deepfakes, and synthetic accounts. Their VerifEye platform offers APIs and SDKs to integrate human validation into financial services, social platforms, and other online applications, helping reduce fraud, improve security, and ensure authentic user interactions. The company emphasizes privacy, data licensing, and ethical AI, offering region‑specific endpoints and a developer console for API key management.
+
+**Areas:** Human Verification · AI · Fraud Prevention · API Platform · Realeyes
+
+## Realeyes on APIs.io
+
+Everything profiled for Realeyes is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/realeyes-ai/](https://apis.io/providers/realeyes-ai/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Realeyes API](https://apis.io/apis/realeyes-ai/realeyes-ai-api/) — Realeyes API as documented publicly: 30 operations. Contract generated from the documentation by API Evangelist (2026-11-22); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Realeyes Ai Webhooks](https://apis.io/asyncapis/realeyes-ai/realeyes-ai-webhooks/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [DeleteV1VerificationDeleteResponse](https://apis.io/schemas/realeyes-ai/realeyes-ai-delete-v1-verification-delete-response/)
+- [PostV1VerificationCreateOrUpdateRequest](https://apis.io/schemas/realeyes-ai/realeyes-ai-post-v1-verification-create-or-update-request/)
+- [PostV1VerificationCreateRequest](https://apis.io/schemas/realeyes-ai/realeyes-ai-post-v1-verification-create-request/)
+- [PostV1VerificationCreateSessionResponse](https://apis.io/schemas/realeyes-ai/realeyes-ai-post-v1-verification-create-session-response/)
+- [PutV1VerificationUpdateRequest](https://apis.io/schemas/realeyes-ai/realeyes-ai-put-v1-verification-update-request/)
+- [PutV1VerificationUpdateResponse](https://apis.io/schemas/realeyes-ai/realeyes-ai-put-v1-verification-update-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Realeyes Ai Context](https://apis.io/jsonld/realeyes-ai/realeyes-ai-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Realeyes API Rules](https://apis.io/rules/realeyes-ai/realeyes-ai-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Realeyes Authentication](https://apis.io/security/realeyes-ai/realeyes-ai-authentication/)
+- [Realeyes Domain Security](https://apis.io/security/realeyes-ai/realeyes-ai-domain-security/)
+- [Realeyes Trust Center](https://apis.io/security/realeyes-ai/realeyes-ai-trust-center/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://realeyes.ai/)
+- [Documentation](https://verifeye-docs.realeyes.ai/)
+- [Getting started](https://realeyes.ai/platform/)
+- [API reference](https://verifeye-docs.realeyes.ai/verifeye-apis/)
+- [Sign up](https://realeyes.ai/blog/sign-up-with-liveness-detection/)
+- [Support](https://realeyes.ai/contact-us/)
+- [Blog](https://realeyes.ai/blog/)
+- [Security](https://realeyes.ai/security/)
+- [Compliance](https://realeyes.ai/security/)
+- [Terms of service](https://realeyes.ai/terms-for-customers/)
+- [Privacy policy](https://realeyes.ai/privacy-policy/)
+
+## API Evangelist rating
+
+**Kin Score 51.5** — developing · rubric 0.28.0 · scored 2026-11-22
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 55.0 |
+| Contract governance | 79.1 |
+| Operational transparency | 16.7 |
+| Developer ergonomics | 47.6 |
+| Access clarity | 40.4 |
+
+**Agent readiness 36.5** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | flavored (partial credit) |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 27.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/realeyes-ai/](https://apis.io/providers/realeyes-ai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Realeyes: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/realeyes-ai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
